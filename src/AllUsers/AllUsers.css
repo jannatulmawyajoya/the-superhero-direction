@@ -1,0 +1,13 @@
+.user-image img{
+     width: 120px; 
+    height: 120px; 
+    border-radius: 60px;
+}
+.user-div{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 10px ;
+    height: 90%;
+    /* margin-bottom: 5px; */
+}
