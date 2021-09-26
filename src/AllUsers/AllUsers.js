@@ -2,7 +2,8 @@ import React from 'react';
 import './AllUsers.css';
 
 const AllUsers = (props) => {
-    console.log(props.user);
+
+    // console.log(props);
     const {name, age, bornIn,proffesion, salary,img}= props.user;
     return (
         <div className="col-md-4">
@@ -10,12 +11,12 @@ const AllUsers = (props) => {
                 <div className="user-image">
                     <img src={img} alt="" />
                 </div>
-                <h4>Name: {name}</h4>
-                <h4>Age: {age}</h4>
-                <h4>BornIn: {bornIn}</h4>
-                <h4>Proffession: {proffesion}</h4>
-                <h4>Salary: {salary}</h4>
-                <button className="btn btn-primary">Add to Club</button>
+                <h5>Name: {name}</h5>
+                <h5>Age: {age}</h5>
+                <h5>BornIn: {bornIn}</h5>
+                <h5>Proffession: {proffesion}</h5>
+                <h5>Salary: {salary}</h5>
+                <button onClick={()=>props.handleAddToClub(props.user)} className="btn btn-primary">Add to Club</button>
             </div>
         </div>
     );
