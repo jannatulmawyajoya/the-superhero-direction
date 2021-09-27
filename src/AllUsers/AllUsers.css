@@ -2,8 +2,11 @@
      width: 120px; 
     height: 120px; 
     border-radius: 60px;
+    /* box-shadow: 7px 7px 2px lightgray; */
 }
 .user-div{
+    background-color: whitesmoke;
+    box-shadow: 10px 10px 10px lightgray;
     margin: 20px;
     padding: 10px;
     border: 2px solid lightgray;

@@ -1,7 +1,10 @@
 .header{
   
-    background-color: lightblue;
+    /* background-color: whitesmoke; */
     /* border-radius: 20px; */
     padding: 10px;
     
+}
+.header span{
+    color: green;
 }

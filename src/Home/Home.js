@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+// import { useEffect } from 'react';
 import AllUsers from '../AllUsers/AllUsers';
+import Club from '../Club/Club';
 import './Home.css';
 
 
@@ -22,7 +23,7 @@ const Home = () => {
         setAddedMember(newAddedMember);
 
     }
-    console.log(addedMember);
+    // console.log(addedMember);
     return (
         <div >
             <div className="row">
@@ -38,13 +39,8 @@ const Home = () => {
                 </div>
                 <div className="col-md-3">
                     <div className="row">
-                        <div className="col-md-12  right-side">
-                            <h4>this is h4 {addedMember.length}</h4>
-                            {/* {
-                                addedMember.map(member=>(console.log(member))
-                            } */}
-                          
-                        </div>
+                        <Club addedMember={addedMember}></Club>
+                        
                     </div>
                     
                 </div>
