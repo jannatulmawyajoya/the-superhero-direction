@@ -1,6 +1,6 @@
 # Superstars-Club
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [SuperStar-club](https://serene-sammet-800884.netlify.app/).
 
 ## Available Scripts
 
